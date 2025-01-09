@@ -6,6 +6,9 @@
     "require": {
         "ext-intl": "*"
     },
+    "require-dev": {
+        "apiato/core": "^8.8.0"
+    },
     "extra": {
         "apiato": {
             "container": {

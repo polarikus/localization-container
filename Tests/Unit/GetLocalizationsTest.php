@@ -3,7 +3,7 @@
 namespace App\Containers\Vendor\Localization\Tests\Unit;
 
 use App\Containers\Vendor\Localization\Tasks\GetAllLocalizationsTask;
-use App\Containers\Vendor\Localization\Tests\TestCase;
+use App\Containers\Vendor\Localization\Tests\UnitTestCase;
 use App\Containers\Vendor\Localization\Values\Localization;
 
 /**
@@ -12,7 +12,7 @@ use App\Containers\Vendor\Localization\Values\Localization;
  * @group localization
  * @group unit
  */
-class GetLocalizationsTest extends TestCase
+class GetLocalizationsTest extends UnitTestCase
 {
     public function testIfAllSupportedLanguagesAreReturned(): void
     {
