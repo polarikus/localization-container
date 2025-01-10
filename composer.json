@@ -7,7 +7,7 @@
         "ext-intl": "*"
     },
     "require-dev": {
-        "apiato/core": "^8.8.0"
+        "apiato/core": "^8.13.0"
     },
     "extra": {
         "apiato": {
